@@ -1,3 +1,222 @@
-<,,body{
-    background-color: brown;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@0;1&family=Playfair+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@0;1&family=Playfair+Display:ital@0;1&family=Ribeye+Marrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Cormorant+SC&family=Noto+Serif:ital@0;1&family=Playfair+Display:ital@0;1&family=Ribeye+Marrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Cookie&family=Cormorant+SC&family=Noto+Serif:ital@0;1&family=Playfair+Display:ital@0;1&family=Ribeye+Marrow&display=swap');
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+.sidebar {
+    background-color: rgb(94, 22, 153);
+    width: 15vw;
+    color: bisque;
+    font-family: 'Noto Serif', serif;
+    font-weight: 400;
+}
+.sidebar nav {
+    padding: 30px;
+    font-size: 20px;
+}
+.sidebar nav li {
+    list-style: none;
+    padding: 30px 0;
+}
+.sidebar nav li a {
+    text-decoration: none;
+    color: white;
+}
+.main {
+    background-color: rgb(87, 88, 88);
+    width: 90vw;
+}
+.container {
+    display: flex;
+}
+.infocontainer {
+    background-color: rgb(250, 177, 246);
+    height: 65vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.hello {
+    font-size: 50px;
+    font-weight: 300;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Ribeye Marrow', cursive;
+}
+.name {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Noto Serif', serif;
+}
+.about {
+    font-size: 20px;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Playfair Display', serif;
+    font-weight: 300;
+}
+.moreabout {
+    font-size: 15px;
+    font-family: 'Noto Serif', serif;
+}
+.buttons {
+    margin-top: 8px;
+}
+.btn {
+    padding: 4px 9px;
+    border-radius: 22px;
+    color: white;
+    background-color: rgb(78, 116, 2);
+    font-weight: 500;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.btn-sm {
+    font-size: 11px;
+    padding: 8px 15px;
+    margin: 18px 0;
+}
+.btn:hover {
+    background-color: aliceblue;
+    color: rgb(78, 116, 2);
+    ;
+}
+.developerinfo {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 20px;
+}
+#developerpic{
+ width: 240px;
+ margin-top: 20px;
+ 
+}
+.contactform {
+    font-family: 'Noto Serif', serif;
+}
+.contactform h1 {
+    font-family: 'Cinzel', serif;
+    font-family: 'Cormorant SC', serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+.contactform h4 {
+    font-weight: lighter;
+}
+.contactform, h1, h4 {
+    text-align: center;
+}
+.contactform div {
+    padding: 8px 0;
+}
+.contactform form div input {
+    border-radius: 5px;
+    
+}
+
+#emailHelp {
+    font-size: 12px;
+    color: rgb(72, 11, 129);
+    margin: 0 5px;
+}
+.blogcontainer h1 {
+text-align: start;
+margin: 20px;
+font-family: 'Cinzel', serif;
+font-family: 'Cormorant SC', serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Playfair Display',
+}
+.blogitem {
+    margin: 20px;
+    font-family: 'Noto Serif', serif;
+}
+.blogitem h2 {
+    font-family: 'Noto Serif', serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+.p {
+    font-family: 'Cinzel', serif;
+    font-family: 'Cormorant SC', serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display',
+}
+.intro h2{
+    text-align: start;
+    margin: 12px;
+}
+.intro p{
+margin: 12px;
+}
+.skillcontainer{
+    padding: 12px;
+
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+}
+.skill{
+    width: 200px;
+    height: 7px;
+    background-color: rgb(32, 2, 56);
+    border: 2px solid black;
+}
+.hundered{
+    width: 200px;
+    background-color: rgb(10, 230, 238);
+}
+.seventyfive{
+    width: 175px;
+    background-color: rgb(99, 155, 16);
+}
+.fifty{
+    width: 155px;
+    background-color: blueviolet;
+}
+.twentyfive{
+    width: 75px;
+    background-color: rgb(204, 67, 204);
+}
+#offset{
+    width: 650px;
+    margin: 700px;
+    margin-left: 400px;
+    margin-top: -450px;
+    margin-bottom: -10px;
+}
+.projectcontainer{
+    padding: 8px;
+}
+.assistancecontainer h1{
+    text-align:start;
+    padding: 12px;
+    font-family: 'Noto Serif', serif;
+
+}
+.assistitem li{
+    padding:12px;
+    list-style: none;
+    font-weight: 400;
+}
+#assistpic{
+    width: 550px;
+    margin: 300px;
+    margin-left: 400px;
+    margin-top: -190px;
+    margin-bottom: 50px;
+}
+@media (max-width:1615px){
+
 }
